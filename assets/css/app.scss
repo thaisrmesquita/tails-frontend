@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400');
+.header {
+    font-family: 'Comfortaa', cursive;
+    .container-image {
+        text-align: center;
+        .container {
+            .img {
+                width: 300px;
+                margin-top: 20px;
+            }
+        }
+    }
+    .container-menu {
+        background-color: #ffccee;
+        .container {
+            .menu {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                .list {
+                    display: inline-block;
+                    padding: 10px 40px;
+                    .item {
+                        text-decoration: none;
+                        color: black;
+                    } 
+                }
+            } .list:hover {
+                background-color: black;
+                .item {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+    .header {
+        .container-image {
+            .container {
+                .img {
+                    margin-top: 40px;
+                    width: 600px;
+                }
+            }
+        }
+        .container-menu {
+            .container {
+                .menu {
+                    .list {
+                        .item{}
+                    }
+                }
+            }
+        }
+    }
+}

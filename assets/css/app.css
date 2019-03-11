@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400");
+.header {
+  font-family: 'Comfortaa', cursive; }
+  .header .container-image {
+    text-align: center; }
+    .header .container-image .container .img {
+      width: 300px;
+      margin-top: 20px; }
+  .header .container-menu {
+    background-color: #ffccee; }
+    .header .container-menu .container .menu {
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+      .header .container-menu .container .menu .list {
+        display: inline-block;
+        padding: 10px 40px; }
+        .header .container-menu .container .menu .list .item {
+          text-decoration: none;
+          color: black; }
+    .header .container-menu .container .list:hover {
+      background-color: black; }
+      .header .container-menu .container .list:hover .item {
+        color: white; }
+
+@media (min-width: 768px) {
+  .header .container-image .container .img {
+    margin-top: 40px;
+    width: 600px; } }
+
+/*# sourceMappingURL=app.css.map */
