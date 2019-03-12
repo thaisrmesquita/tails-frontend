@@ -23,6 +23,18 @@
       .header .container-menu .container .list:hover .item {
         color: white; }
 
+.container-about {
+  margin-top: 40px;
+  font-family: 'Comfortaa', cursive; }
+  .container-about .container {
+    text-align: center; }
+    .container-about .container .container-title .title {
+      margin-bottom: 25px; }
+    .container-about .container .container-description .description {
+      text-align: center;
+      line-height: 35px;
+      font-size: 16px; }
+
 @media (min-width: 768px) {
   .header .container-image .container .img {
     margin-top: 40px;

@@ -34,6 +34,26 @@
         }
     }
 }
+//Area ABOUT
+.container-about {
+    margin-top: 40px;
+    font-family: 'Comfortaa', cursive;
+    .container {
+        text-align: center;       
+        .container-title {
+            .title { 
+                margin-bottom: 25px;
+            }
+        }
+        .container-description {
+            .description {
+                text-align: center;
+                line-height: 35px;
+                font-size: 16px;
+            }
+        }
+    }
+}
 
 @media(min-width:768px){
     .header {
