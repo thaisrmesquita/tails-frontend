@@ -54,7 +54,27 @@
         }
     }
 }
-
+//Area Cakes
+.container-cakes {
+    .container-title{
+        font-family: 'Comfortaa', cursive;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        .title{
+            text-align: center;
+        }
+    }
+    .container-img {
+        padding: 10px;
+        text-align: center;
+       
+        .cl{
+            box-sizing: border-box;
+            .container-image{}
+        }
+    }
+}
+//Area CONTAINER-CAKES
 @media(min-width:768px){
     .header {
         .container-image {

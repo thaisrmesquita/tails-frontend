@@ -35,6 +35,18 @@
       line-height: 35px;
       font-size: 16px; }
 
+.container-cakes .container-title {
+  font-family: 'Comfortaa', cursive;
+  margin-top: 60px;
+  margin-bottom: 30px; }
+  .container-cakes .container-title .title {
+    text-align: center; }
+.container-cakes .container-img {
+  padding: 10px;
+  text-align: center; }
+  .container-cakes .container-img .cl {
+    box-sizing: border-box; }
+
 @media (min-width: 768px) {
   .header .container-image .container .img {
     margin-top: 40px;
