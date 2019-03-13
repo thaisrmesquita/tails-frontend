@@ -56,6 +56,7 @@
 }
 //Area Cakes
 .container-cakes {
+   
     .container-title{
         font-family: 'Comfortaa', cursive;
         margin-top: 60px;
@@ -69,11 +70,39 @@
         text-align: center;
        
         .cl{
+            text-align: center;
             box-sizing: border-box;
             .container-image{}
         }
     }
 }
+
+//Area Sabores
+
+.container-cakes{
+    .container-title{
+        .title{}
+    }
+    .container-image{
+        text-align: center;
+        .img-sabores{
+            width: 100%;
+        }
+    }
+}
+
+.footer {
+    font-family: 'Comfortaa', cursive;
+    background-color:#F694C1;
+    margin-top: 100px;
+    .container {
+        .line {
+            .container-left {
+            }
+        }
+    }
+}
+
 //Area CONTAINER-CAKES
 @media(min-width:768px){
     .header {

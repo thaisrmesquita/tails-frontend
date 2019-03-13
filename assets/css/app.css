@@ -45,7 +45,18 @@
   padding: 10px;
   text-align: center; }
   .container-cakes .container-img .cl {
+    text-align: center;
     box-sizing: border-box; }
+
+.container-cakes .container-image {
+  text-align: center; }
+  .container-cakes .container-image .img-sabores {
+    width: 100%; }
+
+.footer {
+  font-family: 'Comfortaa', cursive;
+  background-color: #F694C1;
+  margin-top: 100px; }
 
 @media (min-width: 768px) {
   .header .container-image .container .img {
