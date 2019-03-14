@@ -11,7 +11,8 @@
         }
     }
     .container-menu {
-        background-color: #ffccee;
+        background-color: #ec268f;
+        
         .container {
             .menu {
                 margin: 0;
@@ -22,7 +23,7 @@
                     padding: 10px 40px;
                     .item {
                         text-decoration: none;
-                        color: black;
+                        color: #ffffff;
                     } 
                 }
             } .list:hover {
@@ -93,16 +94,36 @@
 
 .footer {
     font-family: 'Comfortaa', cursive;
-    background-color:#F694C1;
+    background-color:#f5f5f5;
     margin-top: 100px;
+    padding-top: 50px;
     .container {
         .line {
             .container-left {
+            }
+            .container-right{
+                .container-image{
+                    padding-bottom: 50px;
+                }
             }
         }
     }
 }
 
+.dev {
+    font-family: 'Comfortaa', cursive;
+    background-color: #00aaad;
+    text-align: center;
+    .container{
+        
+        .title {
+            color: #ffffff;
+            font-size: 12px;
+            
+
+        }
+    }
+}
 //Area CONTAINER-CAKES
 @media(min-width:768px){
     .header {
